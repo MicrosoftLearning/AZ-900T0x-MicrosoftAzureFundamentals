@@ -49,7 +49,7 @@ In this task, we will create two virtual machines in the virtual network.
    | Resource group |  **myRGVNet** |
    | Virtual machine name | **vm1**|
    | Region | **(US) East US** |
-   | Image | **Windows Server 2019 Datacenter** |
+   | Image | **Windows Server 2016 Datacenter** |
    | Username| **azureuser** |
    | Password| **Pa$$w0rd1234** |
    | Public inbound ports| Select **Allow selected ports**  |
@@ -117,7 +117,8 @@ In this task, we will allow ICMP connections and test whether the virtual machin
    ```PowerShell
    New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
    ```
-    ![Screenshot of PowerShell command prompt with the command New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 after been run and the output indicating the command was successful.](../images/0303.png)
+   
+   ![Screenshot of PowerShell command prompt with the command New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 after been run and the output indicating the command was successful.](../images/0303.png)
 
    **Note**: You will now switch to the RDP session to vm1 and try the ping again
 
