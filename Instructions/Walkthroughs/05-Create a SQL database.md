@@ -25,7 +25,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Database name| **db1** | 
     | | |
 
-3. Next to the **Server** drop down list, click **Create new** and enter this information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Click **OK** when finished.
+3. Next to the **Server** drop down list, click **Create new** and enter this information (replace **xxxx** in the name of the server with letters and digits such that the name is globally unique). Click **OK** when finished.
 
     | Setting | Value | 
     | --- | --- |
