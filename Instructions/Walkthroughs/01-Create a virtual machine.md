@@ -13,9 +13,6 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 1. Sign-in to the Azure portal: **https://portal.azure.com**
 
-   - **Username**: +++@lab.CloudPortalCredential(LabUser).Username+++
-   - **Passworld**: +++@lab.CloudPortalCredential(LabUser).Password+++
-
 3. From the **All services** blade in the Portal Menu, search for and select **Virtual machines**, and then click **+Add, +Create, +New** and choose **+Virtual machine** from the drop down.
 
 4. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
